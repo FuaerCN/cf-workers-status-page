@@ -16,17 +16,17 @@ settings:
 
 monitors:
   - id: Cloudreve-Heroku # unique identifier
-    name: Cloudreve-Heroku
-    description: 'cloudreve-heroku.herokuapp.com' # default=empty
+    name: cloudreve-heroku.herokuapp.com
+    description: 'Cloudreve-Heroku' # default=empty
     url: 'https://cloudreve-heroku.herokuapp.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: MS365 E5 Renew X Fly.io
-    name: MS365 E5 Renew X Fly.io
-    description: 'e5.fly.dev'
+    name: E5.fly.dev
+    description: 'MS365 E5 Renew X Fly.io'
     url: 'https://e5.fly.dev/'
     method: GET
     expectStatus: 200
