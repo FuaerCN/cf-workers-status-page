@@ -18,7 +18,7 @@ monitors:
   - id: Cloudreve-Heroku # unique identifier
     name: cloudreve-heroku.herokuapp.com
     description: 'Cloudreve-Heroku' # default=empty
-    url: 'https://cloudreve-heroku.herokuapp.com/' # URL to fetch
+    url: 'https://cloudreve-heroku.herokuapp.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -33,3 +33,11 @@ monitors:
     followRedirect: true
     linkable: true
 
+  - id: Azure Domain Check
+    name: azcheck.herokuapp.com
+    description: 'Azure Domain Check'
+    url: 'https://azcheck.herokuapp.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
