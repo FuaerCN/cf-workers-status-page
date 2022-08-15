@@ -23,21 +23,3 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-
-  - id: MS365 E5 Renew X Fly.io
-    name: E5.fly.dev
-    description: 'MS365 E5 Renew X Fly.io'
-    url: 'https://e5.fly.dev'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    linkable: true
-
-  - id: Azure Domain Check
-    name: azcheck.herokuapp.com
-    description: 'Azure Domain Check'
-    url: 'https://azcheck.herokuapp.com'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    linkable: true
